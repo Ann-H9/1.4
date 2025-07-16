@@ -1,0 +1,23 @@
+@use '@/shared/styles/index' as *;
+@use '@/shared/styles/reset.scss';
+@use '@/shared/styles/fonts.scss';
+@use '@/shared/styles/breakpoints.scss' as breakpoints;
+@use '@/shared/styles/utilities.scss';
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 720px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
